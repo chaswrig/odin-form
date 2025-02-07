@@ -29,25 +29,42 @@
         </div>
         <div id="signup">
             <form action="#" method="post">
+                
                 <legend>Let's do this!</legend>
 
-                <label for="first_name"> FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name">
+                <p>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name">
+                </p>
+                
+                <p>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name">
+                </p>
 
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="last_name">
+                <p>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </p>
 
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
+                <p>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="text" name="phone" id="phone"
+                    pattern="[0-9]{10}">
+                </p>
 
-                <label for="phone">PHONE NUMBER</label>
-                <input type="number" name="phone" id="phone">
-
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-
-                <label for="confirm">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm" id="confirm">
+                <p>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" 
+                    minlength="8"> 
+                </p>
+                
+                <p>
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm" id="confirm"
+                    minlength="8">
+                </p>
+                
             </form>
         </div>
         <div id="action_box">
