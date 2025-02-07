@@ -1,6 +1,6 @@
 @font-face {
     font-family: odin;
-    src: url(/Norse-Bold.otf);
+    src: url(/images/leaf.jpg);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     align-items: center;
     width: 30vw;
     min-width: 300px;
-    background-image: url(/odin-form-background.avif);
+    background-image: url(odin-form-background.avif);
     background-size:cover;
 }
 
