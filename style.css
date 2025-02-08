@@ -16,7 +16,7 @@ body {
     align-items: center;
     width: 30vw;
     min-width: 300px;
-    background-image: url(/images/leaf.jpg);
+    background-image: url(images/leaf.jpg);
     background-size:cover;
 }
 
